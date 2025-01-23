@@ -36,72 +36,81 @@ if (newVar3 == newVar4){
 } else {
     System.out.println("i am less");
 }
-// int newVar5 = myObj.nextInt();
-// int newVar6 = myObj.nextInt();
-// if (newVar5 == newVar6){
-//     System.out.println("i am equal");
-// } else if (newVar5 > newVar6){
-//     System.out.println("i am greater");
-// } else {
-//     System.out.println("i am less");
-//       }
-// int button = myObj.nextInt();
-// if (button == 50){
-//     System.out.println("button 50 is pressed");
-// } else if (button == 20){
-//     System.out.println("button 20 is pressed");
-// } else if (button == 30){
-//     System.out.println("button 30 is pressed");
-// } else {
-//     System.out.println("no button is pressed");
-  
-// }
-// }
-// String button = myObj.nextLine();
-// switch(button) {
-//   case "50":
-//     System.out.println("button 50 is pressed");
-//     break;
-//   case "20":
-//     System.out.println("button 20 is pressed");
-//     break;
-//   case "30":
-//     System.out.println("button 30 is pressed");
-//     break;
-//   default:
-//     System.out.println("no button is pressed");
-// }
-// for(int counter = 0; counter < 10; counter = counter + 1){
-//   System.out.println("hello world");
-// }
-// int i = 0;
-// while (i < 10) {
-//   System.out.println("hello world");
-//   i=i+1+;
-// }
-// int i = 0;
-// do {
-//   System.out.println("hello world");
-//   i=i+1;
-// } while (i < 10);
-// for(int counter = 0; counter < 100; counter = counter + 1){
-//     System.out.println(counter);
-// int i = 0;
-// while (i < 11) {
-//  System.out.println(i);
-//   i=i+1;}
-//  int i = 0;
-// do {
-//    System.out.println(i);
-//    i=i+1;
-//    } while (i < 10);
+int newVar5 = myObj.nextInt();
+int newVar6 = myObj.nextInt();
+if (newVar5 == newVar6){
+    System.out.println("i am equal");
+} else if (newVar5 > newVar6){
+    System.out.println("i am greater");
+} else {
+    System.out.println("i am less");
+      }
+int button = myObj.nextInt();
+if (button == 50){
+    System.out.println("button 50 is pressed");
+} else if (button == 20){
+    System.out.println("button 20 is pressed");
+} else if (button == 30){
+    System.out.println("button 30 is pressed");
+} else {
+    System.out.println("no button is pressed");
+}
+button = myObj.nextInt();
+if (button == 50){
+    System.out.println("button 50 is pressed");
+} else if (button == 20){
+    System.out.println("button 20 is pressed");
+} else if (button == 30){
+    System.out.println("button 30 is pressed");
+} else {
+    System.out.println("no button is pressed");
+}
+myObj.nextLine(); // consume the leftover newline
+String buttonStr = myObj.nextLine();
+switch(buttonStr) {
+  case "50":
+    System.out.println("button 50 is pressed");
+    break;
+  case "20":
+    System.out.println("button 20 is pressed");
+    break;
+  case "30":
+    System.out.println("button 30 is pressed");
+    break;
+  default:
+    System.out.println("no button is pressed");
+}
+for(int counter = 0; counter < 10; counter = counter + 1){
+  System.out.println("hello world");
+}
+int i = 0;
+while (i < 10) {
+  System.out.println("hello world");
+  i=i+1;
+}
+int k = 0;
+do {
+  System.out.println("hello world");
+  k=k+1;
+} while (k < 10);
+for(int counter = 0; counter < 100; counter = counter + 1){
+    System.out.println(counter);
+int i2 = 0;
+while (i2 < 11) {
+ System.out.println(i2);
+  i2=i2+1;}
+ int j2 = 0;
+do {
+   System.out.println(j2);
+   j2=j2+1;
+   } while (j2 < 10);
 String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
 System.out.println(cars[0]);
 cars[0] = "Opel";
 System.out.println(cars[0]);
 System.out.println(cars.length);
-for (int i = 0; i < cars.length; i++) {
-  System.out.println(cars[i]);
+for (int m = 0; m < cars.length; m++) {
+  System.out.println(cars[m]);
   for (String car : cars) {
     System.out.println(car);
   }
@@ -117,6 +126,7 @@ for (int i = 0; i < cars.length; i++) {
    }
  }
  System.out.println("The lowest age in the array is: " + lowestAge);
+}
 }
 }
 }
